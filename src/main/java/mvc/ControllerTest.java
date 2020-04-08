@@ -33,6 +33,11 @@ public class ControllerTest {
         return "test";
     }
 
+
+    /**
+     * 测试git注释
+     * @return
+     */
     @RequestMapping(value = "/modelandview",method = RequestMethod.POST)
     public ModelAndView modelAndView(){
         ModelAndView modelAndView = new ModelAndView();
